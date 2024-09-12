@@ -39,7 +39,7 @@
                   <TextField fx:id="txtComment" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                </children>
             </GridPane>
-            <Label text="Label" />
+            <Label fx:id="lblTreasure" text="Label" />
             <Button fx:id="btnSubmit" mnemonicParsing="false" onAction="#CreateNewTreasure" text="Save" />
          </children>
       </VBox>
